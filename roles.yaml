@@ -1,6 +1,6 @@
 ---
 - name: Deploy nginx website on Ubuntu 20.04 EC2 Instance
-  hosts: all
+  hosts: localhost
   become: true
   tasks: 
     - name: Install nginx
