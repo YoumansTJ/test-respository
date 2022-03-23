@@ -6,7 +6,6 @@
     - name: Install nginx
       apt: 
         name: nginx
-        state: started
         update_cache: yes
     - name: Create default index page
       copy:
